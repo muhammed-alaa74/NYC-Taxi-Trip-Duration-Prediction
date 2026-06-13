@@ -28,8 +28,7 @@ interactive, map-based Streamlit web application.
 
 ## Live Demo
 
-[Add your Streamlit Cloud link here once deployed]
-<!-- Example: https://nyc-taxi-trip-duration.streamlit.app -->
+[[Live Web Application](https://nyc-taxi-trip-duration-prediction-mcfyenyegjyzfkskg9ppbw.streamlit.app)]
 
 ## Overview
 
@@ -425,7 +424,7 @@ This project is deployed using Streamlit Community Cloud.
 
 ### Live Demo
 
-https://your-app-name.streamlit.app
+[[Live Web Application](https://nyc-taxi-trip-duration-prediction-mcfyenyegjyzfkskg9ppbw.streamlit.app)]
 
 ### requirements.txt
 
