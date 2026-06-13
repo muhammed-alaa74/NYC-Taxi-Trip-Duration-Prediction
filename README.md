@@ -417,30 +417,15 @@ predictions_seconds = np.expm1(predictions_log)
 
 ## Deployment
 
-### 1. Push to GitHub
+This project is deployed using Streamlit Community Cloud.
 
-```bash
-git init
-git add .
-git commit -m "Initial commit: NYC Taxi Trip Duration Predictor"
-git branch -M main
-git remote add origin https://github.com/<your-username>/<your-repo>.git
-git push -u origin main
-```
+- **Repository:** `NYC-Taxi-Trip-Duration-Prediction`
+- **Branch:** `main`
+- **Main file:** `app/app.py`
 
-### 2. Deploy to Streamlit Community Cloud
+### Live Demo
 
-1. Go to [share.streamlit.io](https://share.streamlit.io) and sign in with
-   your GitHub account.
-2. Click **New app**.
-3. Select:
-   - **Repository**: your GitHub repository
-   - **Branch**: `main`
-   - **Main file path**: `app/app.py`
-4. Click **Deploy** and wait for the build to finish.
-5. Once deployed, copy the generated URL (for example,
-   `https://<app-name>.streamlit.app`) and add it to the
-   [Live Demo](#live-demo) section at the top of this README.
+https://your-app-name.streamlit.app
 
 ### requirements.txt
 
