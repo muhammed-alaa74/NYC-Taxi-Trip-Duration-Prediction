@@ -28,7 +28,7 @@ interactive, map-based Streamlit web application.
 
 ## Live Demo
 
-[[Live Web Application](https://nyc-taxi-trip-duration-prediction-mcfyenyegjyzfkskg9ppbw.streamlit.app)]
+[Live Web Application](https://nyc-taxi-trip-duration-prediction-mcfyenyegjyzfkskg9ppbw.streamlit.app)
 
 ## Overview
 
@@ -339,31 +339,6 @@ When the user clicks **Run Model Prediction**:
 The model and feature list are loaded once and cached with
 `@st.cache_resource`, so the `.pkl` files are not reloaded from disk on every
 interaction.
-
-## Installation and Local Setup
-
-1. Clone the repository:
-
-```bash
-git clone https://github.com/<your-username>/<your-repo>.git
-cd <your-repo>
-```
-
-2. Create and activate a virtual environment (recommended):
-
-```bash
-python -m venv venv
-# Windows
-venv\Scripts\activate
-# macOS / Linux
-source venv/bin/activate
-```
-
-3. Install dependencies:
-
-```bash
-pip install -r requirements.txt
-```
 
 ## Usage
 
